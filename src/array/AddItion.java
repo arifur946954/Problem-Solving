@@ -7,6 +7,8 @@ public class AddItion {
         int[] num1={1,2,3,5,4};
         int[] num2={1,2,3,5,4};
         int[] num3=new int[5];
+     String stringValue=   Arrays.toString(num2);
+        System.out.println(stringValue);
 
         addition(num1,num2,num3);
 
