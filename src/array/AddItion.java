@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class AddItion {
     public static void main(String[] args) {
         int[] num1={1,2,3,5,4};
-        int[] num2={1,2,3,5,4};
+        int[] num2={1,2,3,5,4,2};
         int[] num3=new int[5];
      String stringValue=   Arrays.toString(num2);
         System.out.println(stringValue);
