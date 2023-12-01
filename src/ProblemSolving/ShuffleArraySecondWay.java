@@ -1,6 +1,7 @@
 package ProblemSolving;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 class ShuffleArraySecondWay {
     public int[] shuffle(int[] nums, int n) {
@@ -27,7 +28,7 @@ class ShuffleArraySecondWay {
 
         int[] value=solution.shuffle(nums,n);
 
-        System.out.println(value.toString());
+        System.out.println(Arrays.toString(value));
     }
 
 }
